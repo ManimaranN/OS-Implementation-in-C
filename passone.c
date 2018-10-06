@@ -45,7 +45,8 @@ else if(strcmp(opcode,"RESB")==0)
 locctr+=(atoi(operand));
 else if(strcmp(opcode,"BYTE")==0)
 ++locctr;
-
+else
+printf("Updation not made proceed to next iteration of the loop");
 
 
 
